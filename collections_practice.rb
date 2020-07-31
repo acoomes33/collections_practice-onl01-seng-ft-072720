@@ -43,7 +43,7 @@ end
 
 def add_s(str_arr)
   str_arr.each_with_index.collect do |word, i|
-    if str_arr[i] = str_arr[1]
+    if str_arr[i] == str_arr[1]
       "#{word}"
     else
     "#{word}s"
