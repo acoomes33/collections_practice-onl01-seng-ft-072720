@@ -23,7 +23,9 @@ def reverse_array(int_arr)
   int_arr.reverse
 end
 
-def kesha_maker
+def kesha_maker(str_arr)
+  str_arr.each do |word|
+    
   
 end
 
