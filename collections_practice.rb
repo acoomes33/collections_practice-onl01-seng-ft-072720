@@ -24,9 +24,11 @@ def reverse_array(int_arr)
 end
 
 def kesha_maker(str_arr)
+  kesha_arr = []
   str_arr.each do |word|
-    
-  
+    kesha_arr.push(word[2] = "$")
+  end
+  kesha_arr
 end
 
 def find_a
