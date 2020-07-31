@@ -31,8 +31,8 @@ def kesha_maker(str_arr)
   kesha_arr
 end
 
-def find_a
-  
+def find_a(str_arr)
+  str_arr.find_all("a")
 end
 
 def sum_array(int_arr)
